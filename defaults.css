@@ -1,0 +1,11 @@
+:root {
+    --width-mobile: 375px;
+    --width-desktop: 1440px;
+    /* color */
+    --text-color-1: hsl(229, 23%, 23%);
+    --text-color-2: hsl(0, 0%, 59%);
+    --background-color: hsl(185, 75%, 39%);
+    /* typography */
+    --name-and-stats-font-size: 18px;
+    --card-border-radius: 10px;
+}

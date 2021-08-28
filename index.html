@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
+  <link rel="stylesheet" href="defaults.css">
+  <link rel="stylesheet" href="mainstyles.css">
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <section class="container">
+    <div class="card">
+      <img id="card-top" src="./images/bg-pattern-card.svg" alt="">
+      <img id="avatar" src="./images/image-victor.jpg" alt="">
+      <div class="personal-information">
+        <div class="personal-information__higher">
+          <span class="name bold-text">Victor Crest</span>
+          <span class="age grey-text">26</span>
+        </div>
+        <div class="personal-information__lower">
+          <span class="city grey-text small-text">London</span>
+        </div>
+      </div>
+      <div class="social-stats">
+        <div class="count">
+          <div class="number bold-text">80K</div>
+          <div class="count-title grey-text small-text">Followers</div>
+        </div>
+        <div class="count">
+          <div class="number bold-text">803K</div>
+          <div class="count-title grey-text small-text">Likes</div>
+        </div>
+        <div class="count">
+          <div class="number bold-text">1.4K</div>
+          <div class="count-title grey-text small-text">Photos</div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/lapph2011">Alfur</a>.
+    </div>
+  </section>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
+
 </html>
